@@ -53,7 +53,8 @@
 			}
 			
 		fieldset .controls {
-			clear:both;
+			clear: both;
+			overflow: hidden; /** um elemento pai com clear, não ajusta a altura automaticamente, quando possuim elementos filhos com a propriedade float declarada, para isso, existem várias possibilidades, a mais simples, sem alterações no html, é inserir um overflow com qualquer propriedade. **/
 			padding-top:20px;
 		}
 		
